@@ -138,6 +138,55 @@
   font-size: 1.3em;
 }
 
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #181818;
+  color: white;
+  padding: 1em;
+}
+
+.footer h5 {
+  font-size: 1.1em;
+  margin-bottom: .5em;
+}
+
+.footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+}
+
+.footer .footer__github {
+  width: 45px;
+  height: 45px;
+}
+
+.footer .footer__linkedin {
+  width: 50px;
+  height: 50px;
+}
+
 /* .container {
   min-height: 100vh;
   padding: 0 0.5rem;

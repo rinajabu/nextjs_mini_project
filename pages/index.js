@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
@@ -47,7 +48,11 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        
+        <h5>Rina Joy Abu &#xA9;</h5>
+        <div>
+          <img className={styles.footer__github} src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/github-square-512.png" alt="github logo"/>
+          <img className={styles.footer__linkedin} src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png" alt="linkedin logo"/>
+        </div>
       </footer>
     </div>
   )
