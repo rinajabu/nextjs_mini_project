@@ -1,3 +1,58 @@
+$text-white: white;  
+
+.nav {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  color: $text-white;
+
+  h1 {
+    font-size: 2em;
+  }
+
+  div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+.section__about {
+  background-image: url("https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500071/121955803-creative-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: $text-white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-size: 4em;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  div {
+    text-align: center;
+    background: #00000045;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+}
+
 /* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
