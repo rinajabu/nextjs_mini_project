@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from "next/link"
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -15,10 +16,14 @@ export default function Home() {
       <main className={styles.main}>
 
         <nav className={styles.nav}>
-          <h1>Rina Joy Abu</h1>
+          <Link href="/">
+            <a><h1>Rina Joy Abu</h1></a>
+          </Link>
           <div>
             <a href="">About</a>
-            <a href="">Skills</a>
+            <Link href="/skills">
+              <a>Skills</a>
+            </Link>
             <a href="">Projects</a>
             <a href="">Contact</a>
           </div>
