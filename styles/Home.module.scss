@@ -1,4 +1,5 @@
-$text-white: white;  
+$text-white: white;
+$background-black: rgb(24, 24, 24);  
 
 .nav {
 
@@ -7,7 +8,7 @@ $text-white: white;
   align-items: center;
   height: 70px;
   padding: 1rem;
-  background-color: rgb(0, 0, 0);
+  background-color: $background-black;
   color: $text-white;
 
   h1 {
@@ -20,16 +21,21 @@ $text-white: white;
     justify-content: space-between;
   }
 
+  a {
+    font-weight: 600;
+  }
+
 }
 
 .section__about {
+
   background-image: url("https://previews.123rf.com/images/peshkov/peshkov1905/peshkov190500071/121955803-creative-glowing-circuit-coding-background-programming-and-technology-concept-3d-rendering.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   color: $text-white;
-  height: 100vh;
+  height: 115vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +57,52 @@ $text-white: white;
     border-radius: 10px;
   }
 
+}
+
+.section__aboutMe {
+
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  div {
+    color: $text-white;
+    background-color: $background-black;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h4 {
+    font-size: 3.5em;
+    margin-bottom: .5em;
+  }
+
+  p {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+}
+
+.section__contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h4 {
+    font-size: 3em;
+    margin-bottom: .5em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
 }
 
 /* .container {
